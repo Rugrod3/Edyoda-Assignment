@@ -1,26 +1,18 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
+Q:1
+    
 x=0
 y=1
 while y<50:
     print(y)
     x,y=y,x+y
 
-
-# In[3]:
-
+Q:2
 
 word=input()
 for char in range(len(word)-1,-1,-1):
     print(word[char],end="")
 
-
-# In[6]:
-
+Q:3
 
 no_list=[1,2,3,4,5,6,7,8,9,10]
 count_even=0
@@ -32,10 +24,3 @@ for i in no_list:
         count_odd=count_odd+1
 print('no.of even number:',count_even)
 print('no, of odd number:',count_odd)
-
-
-# In[ ]:
-
-
-
-
