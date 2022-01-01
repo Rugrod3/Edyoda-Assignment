@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[33]:
-
-
+Q1.
 def summ(x):
     suum=0
     for i in x:
@@ -11,9 +6,7 @@ def summ(x):
     print(suum)
 
 
-# In[35]:
-
-
+Q2.
 def reverse_string(str):  
     str1 = ""  
     for i in str:  
@@ -21,9 +14,7 @@ def reverse_string(str):
     return str1
 
 
-# In[37]:
-
-
+Q3.
 def string_test(s):
     d={"UPPER_CASE":0, "LOWER_CASE":0}
     for c in s:
@@ -36,10 +27,3 @@ def string_test(s):
     print ("Original String : ", s)
     print ("No. of Upper case characters : ", d["UPPER_CASE"])
     print ("No. of Lower case Characters : ", d["LOWER_CASE"])
-
-
-# In[ ]:
-
-
-
-
