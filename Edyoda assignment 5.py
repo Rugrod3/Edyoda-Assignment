@@ -8,4 +8,4 @@ class number:
 
 sample=number(3)
 
-sample.power()
+sample.power(3)
