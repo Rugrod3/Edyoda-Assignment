@@ -1,11 +1,10 @@
 
 class number:
-    def __init__(self,x,y):
+    def __init__(self,x):
         self.x=x
-        self.y=y
         
-    def power(self):
-        return self.x**self.y
+    def power(self,multiply):
+        return self.x**multiply
 
 sample=number(2,3)
 
