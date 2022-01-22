@@ -6,6 +6,6 @@ class number:
     def power(self,multiply):
         return self.x**multiply
 
-sample=number(2,3)
+sample=number(3)
 
 sample.power()
